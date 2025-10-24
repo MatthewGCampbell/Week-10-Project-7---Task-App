@@ -4,7 +4,7 @@ Submitted by: **Matthew Campbell**
 
 **Task App** is an app that give you a to-do list and also orgonizes it into a calander so that you can see when items are due.
 
-Time spent: *3* hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
