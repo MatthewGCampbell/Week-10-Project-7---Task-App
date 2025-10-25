@@ -17,26 +17,18 @@ The following **required** functionality is completed:
 - [X] Tasks can be deleted
 - [X] Users have a calendar view via navigation controller that displays tasks	
 
-
-The following **additional** features are implemented:
-
-- [ ] Tasks can be toggled completed
-- [ ] User can edit tasks by tapping on the task in the feed view
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough
 
 Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+[Guide]](https://youtube.com/shorts/cCOTywkuQ8A) .
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+Difficulty understanding the save function in the tasks struct, sill a little bit confused how the closure works in conjunction with the function and how it knows what task I'm refering to with the self keyword
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Matthew Campbell]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
