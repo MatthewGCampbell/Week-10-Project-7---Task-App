@@ -5,7 +5,7 @@
 import UIKit
 
 // The Task model
-struct Task: Encodable, Decodable, Equatable {
+struct Task: Encodable, Decodable {
 
     // The task's title
     var title: String
@@ -82,10 +82,10 @@ extension Task {
 
     // Add a new task or update an existing task with the current task.
     func save() {
-        var tasks = Task.getTasks()
+        var tasks = Task.getTasks() // Array Of Tasks
         // TODO: Save the current task
-        if let index = tasks.firstIndex(of: self) {
-            tasks[index] = self
+        if let myTaskId = tasks.firstIndex(where: {$0.id == self.id}) {
+            tasks[myTaskId] = self
         } else {
             tasks.append(self)
         }
